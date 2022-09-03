@@ -1,9 +1,13 @@
 body{
+    text-align: center;
     color: #181d1f;
 
 }
 .contents{
+    
     padding:5%;
+    padding-top: 0;
+
     width: 100%;
     margin: 0;
     position: absolute;
@@ -13,6 +17,8 @@ body{
     font-family: 'Merriweather', serif;
 }
 .contents-span{
+    position: relative;
+    right: 10%;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
@@ -24,4 +30,5 @@ color: #293236;
 }
 .admin-col,.user-col{
     text-align: left;
+    padding-left: 8%;
 }
