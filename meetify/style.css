@@ -1,0 +1,160 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #112d4e;
+}
+.background {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+.background .shape {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.image {
+  position: absolute;
+  right: 8%;
+  top: 08%;
+  width: 560px;
+}
+
+.shape:first-child {
+  background: linear-gradient(#1845ad, #23a2f6);
+
+  left: -330px;
+  top: -80px;
+}
+.shape:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  right: 182px;
+  bottom: -80px;
+}
+form {
+  height: 520px;
+  width: 400px;
+  background-color: #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 33%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 30px 35px;
+}
+form * {
+  font-family: "Poppins", sans-serif;
+  color: #dbe2ef;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+form h3 {
+  color: #000;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  padding-left: 4px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #dbe2ef;
+  color: #000;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+::placeholder {
+  color: #000;
+  font-weight: 300;
+}
+button {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #112d4e;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c3859;
+}
+.social {
+  margin-top: 16px;
+  display: flex;
+  cursor: pointer;
+}
+.social div {
+  background: red;
+  width: 330px;
+  border-radius: 3px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 0.27);
+  color: #000;
+  text-align: center;
+}
+.social div:hover {
+  background-color: rgba(255, 255, 255, 0.47);
+}
+.social i {
+  margin-right: 4px;
+}
+
+.social .go {
+  border: 1px solid gray;
+}
+
+.social .go:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.lbr {
+  margin: 20px auto;
+  color: #000;
+  text-align: center;
+}
+
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
